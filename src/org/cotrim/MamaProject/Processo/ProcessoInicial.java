@@ -1,10 +1,11 @@
 package org.cotrim.MamaProject.Processo;
 
 import org.cotrim.MamaProject.Recursos.Aluno;
+import org.cotrim.MamaProject.Recursos.Sala;
 
-public class Processo {
+public class ProcessoInicial {
 
-	public Processo(){
+	public ProcessoInicial(){
 		
 	}
 	
@@ -16,15 +17,16 @@ public class Processo {
 		aluno.setTurma("Turma aluno");
 		aluno.setTurno("Turno aluno");
 		aluno.setProfessora("Nome professora");
+		aluno.setNivel("Nivel aluno");
 		return aluno;
 	}
 	
-	public Aluno[] adicionaAlunoSala(Aluno aluno){
-		
-		
-		
-		
-		
-		return null;
+	public Sala cadastraSala(Sala sala){
+		sala.setNome("sala 1");
+		return sala;
+	}
+	
+	public void adicionaAlunoSala(Aluno aluno,Sala sala){
+		sala.addAlunoSala(aluno);
 	}
 }

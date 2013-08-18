@@ -8,7 +8,7 @@ public class Aluno {
 	private String turma;
 	private String turno;
 	private String professora;
-	
+	private String nivel;
 	
 	public Aluno(){
 		setNome("");
@@ -17,6 +17,7 @@ public class Aluno {
 		setTurma("");
 		setTurno("");
 		setProfessora("");
+		setNivel("");
 	}
 
 	public String getNome() {
@@ -78,12 +79,21 @@ public class Aluno {
 		this.professora = professora;
 	}
 
+	public String getNivel() {
+		return nivel;
+	}
+
+	public void setNivel(String nivel) {
+		this.nivel = nivel;
+	}
+
 	@Override
 	public String toString() {
 		return "Aluno \n[nome=" + nome + ", \nidade=" + idade + ", \nserie=" + serie
 				+ ", \nturma=" + turma + ", \nturno=" + turno + ", \nprofessora="
-				+ professora + "]";
+				+ professora + ", \nnivel=" + nivel + "]";
 	}
+
 	
 	
 }
