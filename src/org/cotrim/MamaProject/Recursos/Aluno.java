@@ -1,4 +1,4 @@
-package org.cotrim.MamaProject.Aluno;
+package org.cotrim.MamaProject.Recursos;
 
 public class Aluno {
 
