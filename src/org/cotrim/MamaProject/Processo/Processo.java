@@ -19,4 +19,12 @@ public class Processo {
 		return aluno;
 	}
 	
+	public Aluno[] adicionaAlunoSala(Aluno aluno){
+		
+		
+		
+		
+		
+		return null;
+	}
 }
