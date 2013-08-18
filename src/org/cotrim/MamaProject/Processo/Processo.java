@@ -1,10 +1,10 @@
-package org.cotrim.MamaProject.Principal;
+package org.cotrim.MamaProject.Processo;
 
 import org.cotrim.MamaProject.Recursos.Aluno;
 
-public class Cadastro {
+public class Processo {
 
-	public Cadastro(){
+	public Processo(){
 		
 	}
 	

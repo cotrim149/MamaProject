@@ -80,8 +80,8 @@ public class Aluno {
 
 	@Override
 	public String toString() {
-		return "Aluno [nome=" + nome + ", idade=" + idade + ", serie=" + serie
-				+ ", turma=" + turma + ", turno=" + turno + ", professora="
+		return "Aluno \n[nome=" + nome + ", \nidade=" + idade + ", \nserie=" + serie
+				+ ", \nturma=" + turma + ", \nturno=" + turno + ", \nprofessora="
 				+ professora + "]";
 	}
 	
